@@ -69,4 +69,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/hashicorp/consul-template => github.com/Thomas-HPE/consul-template v0.0.0-20250702142151-e62c39bd8027
+replace github.com/hashicorp/consul-template => github.com/Thomas-HPE/consul-template 29849b8
