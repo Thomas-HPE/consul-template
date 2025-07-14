@@ -68,3 +68,5 @@ require (
 	golang.org/x/time v0.12.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/hashicorp/consul-template => github.com/Thomas-HPE/consul-template v0.0.0-20250702142151-e62c39bd8027
