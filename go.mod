@@ -1,5 +1,9 @@
 module github.com/Thomas-HPE/consul-template
 
+retract (
+    v0.41.4 // Published accidentally.
+)
+
 go 1.25.5
 
 require (
