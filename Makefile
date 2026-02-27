@@ -40,8 +40,8 @@ dev:
 # dev docker builds
 docker:
 	@env CGO_ENABLED="0" go build -buildvcs=false -ldflags "${LD_FLAGS}" -o $(NAME)
-	mkdir -p dist/linux/amd64/
-	cp consul-template dist/linux/amd64/
+	mkdir -p dist/$(GOOS)/$(GOARCH)/
+	cp consul-template dist/$(GOOS)/$(GOARCH)/
 	env DOCKER_BUILDKIT=1 docker build -t consul-template .
 .PHONY: docker
 
