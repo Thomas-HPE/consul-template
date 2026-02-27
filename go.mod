@@ -1,4 +1,4 @@
-module github.com/hashicorp/consul-template
+module github.com/Thomas-HPE/consul-template
 
 go 1.25.5
 
@@ -31,7 +31,10 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 )
 
-require github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
+require (
+	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
+	github.com/hashicorp/consul-template v0.41.4 // indirect
+)
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
